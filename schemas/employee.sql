@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS employee
+DROP DATABASE IF EXISTS employee;
 CREATE DATABASE employee; 
 USE employee; 
 
@@ -9,4 +9,4 @@ CREATE TABLE employee_table (
     role_id INTEGER, 
     manager_id INTEGER, 
     PRIMARY KEY(id)
-)
+);
